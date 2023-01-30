@@ -8,3 +8,8 @@
 // @exclude      *facebook.com/*
 // @grant        none
 // ==/UserScript==
+
+
+if(document.getElementById("globalContainer")){
+  document.getElementById("globalContainer").remove();
+}
